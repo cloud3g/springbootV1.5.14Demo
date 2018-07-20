@@ -38,7 +38,8 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
+			<scope>compile</scope>
+			<!--生产用provided--><!--开发用compile或关闭scope-->
         </dependency>
 
 		<dependency>
